@@ -1,0 +1,156 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	
+}
+.navbar {
+	padding: 0 15px;
+	display: flex;
+	align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar_right {
+	width: 135px;
+	display: flex;
+	justify-content: space-between;
+    align-content: center;
+    align-items: center;
+	list-style: none;
+}
+.navbar_right--button {
+	padding: 10px 5px;
+}
+.navbar_right--login {
+	padding: 5px 10px;
+	border-radius: 20px;
+    border: solid black;
+    border-width: thin;
+	font-size: 13px;
+}
+.page {
+	display: flex;
+	flex-direction: column; 
+}
+.page_header {
+	width: 100%;
+	height: 375px;
+	padding: 0 64px;
+	background-image: url("Images/home_banner.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: white;
+}
+/* Banner distinto del home page*/
+.block {
+	height: 375px;
+}
+/* Banner distinto del home page*/
+
+.page h2 {
+	font-size: 40px;
+	text-align: center;
+	margin: 15px;
+}
+.page_maincontent {
+	margin: 0 150px;
+	padding: 32px 15px;	
+}
+.page_maincontent div {
+	width: 100%;
+	padding: 16px 0;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.page_statistics {
+	
+}
+/* Dimensiones distintas del home page*/
+.mod {
+	padding: 0;
+}
+/* Dimensiones distintas del home page*/
+.page_statistics--container {
+	background-color: #171717;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 100%;
+    height: 430px;
+    align-items: center;
+	padding: 0 175px;
+}
+/* modificaciones de instalaciones.html */
+.mitad {
+	width: 50%;
+	text-align: center;
+    font-size: 15px;
+	padding: 0 20px;
+}
+.mitad h3 {
+	padding: 15px;
+	text-decoration-line: underline;
+}
+/* modificaciones de instalaciones.html */
+.page_statistics--container a {
+	color: white;
+}
+.container {
+	height: 175px;
+	text-align: center;
+}
+
+footer {
+	background-image: url("Images/footer.jpg");
+	background-size: cover;
+	padding: 40px 15px;
+}
+.footer_container {
+	width: 100%;
+	padding: 0 15px;
+}
+.container--box {
+	display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.container--box ul {
+	list-style: none;
+	padding-left: 16px;
+	padding-bottom: 16px;
+}
+.container--box-left .container--box-right {
+	width: 50%;
+}
+.container--box-left h3 {
+	font-size: 26px;
+}
+.container--box-left h4 {
+	font-size: 22px;
+	color: #455a64;
+}
+.container--box-left li {
+	display: flex;
+	align-items: center;
+	margin: 8px;
+	font-size: 19px;
+}
+.container--box-left li a {
+	padding-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+.container--box-right ul li span {
+	width: 24px;
+	height: 24px;
+	background-image: url("Images/facebook.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
